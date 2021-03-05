@@ -137,6 +137,7 @@ dist
 !.vscode/tasks.json
 !.vscode/launch.json
 *.code-workspace
+.prettierrc
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
