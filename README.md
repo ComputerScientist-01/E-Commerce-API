@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://jayvardhanrathi.tech">
-	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=80%/>
+	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=60%/>
 </a>
     
 <h2 align="center">E-Commerce API</h2>
