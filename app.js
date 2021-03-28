@@ -1,17 +1,11 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const options = require("dotenv/lib/env-options");
 
 //middleware
-app.use(bodyParser.json());
-app.use(
-  bodyParser.urlencoded({
-    extended: true,
-  })
-);
+app.use(express.json({ extended: false }))
 app.use(morgan("tiny"));
 
 //database schema
