@@ -4,7 +4,6 @@
 </a>
     
 <h2 align="center">E-Commerce API</h2>
-<h4 align="center">An API for E-commerce store<h4>
 
 </p>
 
