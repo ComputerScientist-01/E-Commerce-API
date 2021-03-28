@@ -23,7 +23,7 @@ mongodb+srv://<username>:<password>@cluster0.x1ccn.mongodb.net/<dbname>?retryWri
 ```
 
 
-### Install
+### To Install all the dependencies
 
 ```
 npm install
