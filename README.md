@@ -2,7 +2,7 @@
     <a href="https://jayvardhanrathi.tech">
 	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=60%/>
 </a>
-    
+
 <h2 align="center">E-Commerce API</h2>
 
 </p>
@@ -85,6 +85,11 @@ To login the user and get the auth token you can use:
 ```
 POST     /api/v1/users/login
 ```
+
+## Database Design 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/39644109/114302574-3c04c300-9ae7-11eb-9950-8b82820b922a.png" width=60%/>
 
 ## :heart: Found this project interesting?
 
