@@ -1,30 +1,38 @@
 {
-  "name": "eshop",
-  "version": "1.0.0",
-  "description": "backend for the eshop",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ComputerScientist-01/E-Commerce-API.git"
-  },
-  "author": "ComputerScientist-01",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ComputerScientist-01/E-Commerce-API/issues"
-  },
-  "homepage": "https://github.com/ComputerScientist-01/E-Commerce-API#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "https-localhost": "^4.6.4",
-    "mongoose": "^5.11.18",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.7",
-    "prettier": "^2.2.1"
-  }
+	"name": "eshop",
+	"version": "1.0.0",
+	"description": "backend for the eshop",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ComputerScientist-01/E-Commerce-API.git"
+	},
+	"author": "ComputerScientist-01",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ComputerScientist-01/E-Commerce-API/issues"
+	},
+	"homepage": "https://github.com/ComputerScientist-01/E-Commerce-API#readme",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"https-localhost": "^4.6.4",
+		"mongodb": "^3.6.4",
+		"mongoose": "^5.12.3",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.7",
+		"prettier": "^2.2.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.13.14",
+		"@babel/core": "^7.13.15",
+		"@babel/node": "^7.13.13",
+		"@babel/preset-env": "^7.13.15"
+	}
 }
