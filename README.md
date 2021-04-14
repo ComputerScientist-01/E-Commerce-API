@@ -9,19 +9,21 @@
 
 ## :bulb: Built Using
 
-- [**Node.JS**](https://https://nodejs.org/en/)
-- [**JavaScript**](https://www.javascript.com/)
+- MongoDB
+- Express
+- Node.JS
+- Javascript
 
 ## Run
 
 ### Configure Database Connection String
+
 You need to go to `.env` file and add your connection string to your mongoDB database based on how it's explained in the course.
 You can use the following url, but you need to get your `username`, `password` and `dbname` which you created in your databse.
 
 ```
 mongodb+srv://<username>:<password>@cluster0.x1ccn.mongodb.net/<dbname>?retryWrites=true&w=majority
 ```
-
 
 ### To Install all the dependencies
 
@@ -86,7 +88,7 @@ To login the user and get the auth token you can use:
 POST     /api/v1/users/login
 ```
 
-## Database Design 
+## Database Design
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/39644109/114302574-3c04c300-9ae7-11eb-9950-8b82820b922a.png" width=60%/>
