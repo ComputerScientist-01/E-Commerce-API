@@ -5,6 +5,10 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv/config");
 
+//enabling cors
+app.use(cors());
+app.options("*", cors());
+
 //environment variables
 const api = process.env.API_URL;
 
