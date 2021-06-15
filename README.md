@@ -93,13 +93,27 @@ POST     /api/v1/users/login
 <p align="center">
 <img src="https://user-images.githubusercontent.com/39644109/114302574-3c04c300-9ae7-11eb-9950-8b82820b922a.png" width=60%/>
 
-## :heart: Found this project interesting?
 
-<br>
+<!-- LICENSE -->  
 
-## If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+## License
 
-<br>
+Distributed under the MIT License. See `LICENSE` for more information.  
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request  
+
+
+
 <!-- CONTACT -->
 
 ## :man: Project Created & Maintained By -
@@ -108,3 +122,4 @@ POST     /api/v1/users/login
 - **Reach out to me at** [rathi406@gmail.com](rathi406@gmail.com)
 
 <h3 align="right">Built with :heart: by Jayvardhan Rathi</h3>
+
