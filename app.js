@@ -25,6 +25,7 @@ app.use(`${api}/users`, usersRoutes);
 app.use(`${api}/orders`, ordersRoutes);
 
 //middleware
+app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 app.use(morgan("tiny"));
 
