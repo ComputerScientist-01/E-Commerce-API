@@ -25,8 +25,8 @@ app.use(`${api}/users`, usersRoutes);
 app.use(`${api}/orders`, ordersRoutes);
 
 //middleware
-app.use(express.urlencoded({extended: false}));
-app.use(express.json());
+app.use(express.urlencoded({extended: false})); // for parsing application/json
+app.use(express.json()); // for parsing application/x-www-form-urlencoded
 app.use(morgan("tiny"));
 
 mongoose
